@@ -1,0 +1,254 @@
+/* body{background: url(main.png); width: 1920px;max-height: 936px;} */
+.header{
+    /* display: block;  */
+    position: absolute;
+    width: 1920px;
+    height: 936px;
+    left: 0px;
+    top: 0px;
+    
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.2) 12.59%, rgba(0, 0, 0, 0) 101.31%), url(main.png);
+    mix-blend-mode: normal;
+    
+}
+.header-right{
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    left: 1422px;
+    top: 211px;
+
+    background: url(icon.png);
+}
+.header-left{
+    position: absolute;
+    width: 745px;
+    height: 55px;
+    left: 647px;
+    top: 230px;
+
+    font-family: Arimo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    text-align: right;
+
+
+    color: #FFFFFF;
+}
+.header-center_h{
+    /* position: relative;
+    left: 15.7%;
+    right: 51.65%;
+    top: 38.85%;
+    bottom: 58.16%;
+    height: 28px;
+width: 627px;
+left: 647px;
+top: 364px;
+border-radius: nullpx;
+
+
+    font-family: Arimo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    
+
+    text-align: center;
+
+    color: #FFFFFF; */
+
+    /* שדח דוק תחילש לע ץחל דוק תלביק אל םא ,הסינכה דוק תא ןזה */
+
+position: absolute;
+left: 33.7%;
+right: 33.65%;
+top: 38.85%;
+bottom: 58.16%;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+text-align: right;
+
+color: #FFFFFF;
+
+
+}
+.header-center{
+    position: absolute;
+    display: inline-block;
+    left: 25.7%;
+    right: 41.65%;
+    top: 48.85%;
+    bottom: 48.16%;
+
+    font-family: Arimo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #FFFFFF;
+}
+.header-centerone{
+    /* position: absolute;
+    left: 25.7%;
+    right: 41.65%;
+    top: 68.85%;
+    bottom: 48.16%;
+
+    font-family: Arimo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+
+    color: #FFFFFF; */
+
+    /* אמסיס */
+
+position: absolute;
+left: 25.7%;
+right: 41.65%;
+top: 613px;
+bottom: 295px;
+
+font-family: Arimo;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+text-align: right;
+
+color: #FFFFFF;
+
+
+}
+/* .header-centerone p3{right: 860px;} */
+.header-centertwo{
+    position: absolute;
+    display: inline-block;
+    left: 585px;
+    right: 594px;
+    top: 807px;
+    bottom: 38.16%;
+
+    font-family: Arimo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+.line{
+    position: absolute;
+    width: 1076px;
+    height: 5px;
+    left: 422px;
+    top: 287px;
+
+    background: #FFFFFF;
+    border-radius: 2px;
+}
+.btn{
+    /* position: absolute;
+    display: block;
+    margin-top: 100px;
+    left: 1122px;
+    top: 611px; */
+
+    /* Rectangle 6 */
+
+position: absolute;
+left: 785px;
+right: 785px;
+top: 492px;
+bottom: 396px;
+height: 58px;
+width: 350px;
+
+background: #FFFFFF;
+border-radius: 35px;
+
+}
+.btnone{
+
+position: absolute;
+left: 785px;
+right: 785px;
+top: 656px;
+bottom: 222px;
+
+background: #FFFFFF;
+border-radius: 35px;
+
+}
+.btntwo{
+
+position: absolute;
+left: 55%;
+right: 18%;
+top: 17.24%;
+bottom: -17.24%;
+height: 58px;
+width: 350px;
+
+background: #009C41;
+border-radius: 35px;
+
+}
+.btntwo button{background: none;left: 576px;}
+.btntwoto{
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+height: 58px;
+width: 350px;
+
+background: #C4C4C4;
+border-radius: 35px;
+
+}
+.btntwoto button{background: none;}
+button{
+    
+    /* left: 50%;
+    right: 50%; */
+    
+    
+    /* top: 40.19%;
+    bottom: 5.61%; */
+    height: 58px;
+    min-width: 350px;
+    background: #FFFFFF;
+    border-radius: 35px;
+}
+/* .btnone{
+    margin-top: 58px;
+}
+.btntwo{
+    margin-top: 116px;
+}
+.btnthree{
+    margin-top: 174px;
+} */
