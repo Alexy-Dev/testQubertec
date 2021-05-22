@@ -1,23 +1,48 @@
-/* body{background: url(main.png); width: 1920px;max-height: 936px;} */
+
 .header{
-    /* display: block;  */
     position: absolute;
     width: 1920px;
     height: 936px;
     left: 0px;
-    top: 0px;
-    
-    background: linear-gradient(360deg, rgba(0, 0, 0, 0.2) 12.59%, rgba(0, 0, 0, 0) 101.31%), url(main.png);
-    mix-blend-mode: normal;
-    
+    top: 0px;    
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.8) 12.59%, rgba(0, 0, 0, 0.1) 101.31%), url(main.png);
+    mix-blend-mode: normal;    
 }
+@media screen and (max-device-width: 480px) {
+    .header{
+        width: 378px;
+        height: 769px;
+        background: url(main374.png);
+    }
+  }
+.top-box{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    height: 106px;
+    width: 1920px;
+    border-radius: 0px;
+    background: #ffffff;
+}
+.header-top{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    height: 76px;
+    width: 1920px;    
+    top: 106px;
+    border-radius: 0px;    
+    background: #F5F5F5;
+    }
 .header-right{
     position: absolute;
     width: 76px;
     height: 76px;
     left: 1422px;
     top: 211px;
-
     background: url(icon.png);
 }
 .header-left{
@@ -26,117 +51,60 @@
     height: 55px;
     left: 647px;
     top: 230px;
-
     font-family: Arimo;
     font-style: normal;
     font-weight: normal;
-    font-size: 48px;
+    font-size: 58px;
     line-height: 55px;
     text-align: right;
-
-
     color: #FFFFFF;
 }
 .header-center_h{
-    /* position: relative;
-    left: 15.7%;
-    right: 51.65%;
+    display: inline-block;
+    position: absolute;
+    left: 33.7%;
+    right: 33.65%;
     top: 38.85%;
     bottom: 58.16%;
+    width: 627px;
     height: 28px;
-width: 627px;
-left: 647px;
-top: 364px;
-border-radius: nullpx;
-
-
     font-family: Arimo;
     font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
+    font-weight: bold;
+    font-size: 27.5px;
     line-height: 28px;
-    
-
     text-align: center;
-
-    color: #FFFFFF; */
-
-    /* שדח דוק תחילש לע ץחל דוק תלביק אל םא ,הסינכה דוק תא ןזה */
-
-position: absolute;
-left: 33.7%;
-right: 33.65%;
-top: 38.85%;
-bottom: 58.16%;
-
-font-family: Arimo;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-/* identical to box height */
-text-align: right;
-
-color: #FFFFFF;
-
-
+    color: #FFFFFF;
 }
 .header-center{
     position: absolute;
     display: inline-block;
     left: 25.7%;
     right: 41.65%;
-    top: 48.85%;
+    top: 449px;
     bottom: 48.16%;
-
     font-family: Arimo;
     font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
+    font-weight: bold;
+    font-size: 27.5px;
     line-height: 28px;
-    /* identical to box height */
-
     text-align: right;
-
     color: #FFFFFF;
 }
 .header-centerone{
-    /* position: absolute;
+    position: absolute;
     left: 25.7%;
     right: 41.65%;
-    top: 68.85%;
-    bottom: 48.16%;
-
+    top: 613px;
+    bottom: 295px;
     font-family: Arimo;
     font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
+    font-weight: bold;
+    font-size: 27.5px;
+    line-height: 28px;    
     text-align: right;
-
-    color: #FFFFFF; */
-
-    /* אמסיס */
-
-position: absolute;
-left: 25.7%;
-right: 41.65%;
-top: 613px;
-bottom: 295px;
-
-font-family: Arimo;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-/* identical to box height */
-text-align: right;
-
-color: #FFFFFF;
-
-
+    color: #FFFFFF;
 }
-/* .header-centerone p3{right: 860px;} */
 .header-centertwo{
     position: absolute;
     display: inline-block;
@@ -144,111 +112,113 @@ color: #FFFFFF;
     right: 594px;
     top: 807px;
     bottom: 38.16%;
-
     font-family: Arimo;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
-    /* identical to box height */
-
     text-align: right;
-
     color: #FFFFFF;
 }
-
 .line{
     position: absolute;
     width: 1076px;
     height: 5px;
     left: 422px;
     top: 287px;
-
     background: #FFFFFF;
     border-radius: 2px;
 }
 .btn{
-    /* position: absolute;
-    display: block;
-    margin-top: 100px;
-    left: 1122px;
-    top: 611px; */
-
-    /* Rectangle 6 */
-
-position: absolute;
-left: 785px;
-right: 785px;
-top: 492px;
-bottom: 396px;
-height: 58px;
-width: 350px;
-
-background: #FFFFFF;
-border-radius: 35px;
-
+    position: absolute;
+    left: 785px;
+    right: 785px;
+    top: 492px;
+    bottom: 396px;
+    height: 58px;
+    width: 350px;
+    background: #FFFFFF;
+    border-radius: 35px;
 }
+.btn h1{
+    position: absolute;
+    left: 0%;
+    margin-left: 28px;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 18px;
+    height: 18px;    
+    }
 .btnone{
-
-position: absolute;
-left: 785px;
-right: 785px;
-top: 656px;
-bottom: 222px;
-
-background: #FFFFFF;
-border-radius: 35px;
-
+    position: absolute;
+    left: 785px;
+    right: 785px;
+    top: 656px;
+    bottom: 222px;
+    background: #FFFFFF;
+    border-radius: 35px;
 }
 .btntwo{
-
-position: absolute;
-left: 55%;
-right: 18%;
-top: 17.24%;
-bottom: -17.24%;
-height: 58px;
-width: 350px;
-
-background: #009C41;
-border-radius: 35px;
-
+    position: absolute;
+    left: 55%;
+    right: 18%;
+    top: 17.24%;
+    bottom: -17.24%;
+    height: 58px;
+    width: 350px;
+    background: #009C41;
+    border-radius: 35px;
 }
-.btntwo button{background: none;left: 576px;}
+.btntwo button{background: none;}
+.btntwo h1{
+    position: absolute;
+    left: 0%;
+    margin-left: 145px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 59px;
+    height: 28px;
+}
 .btntwoto{
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-height: 58px;
-width: 350px;
-
-background: #C4C4C4;
-border-radius: 35px;
-
+    position: absolute;
+    display: inline-block;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    height: 58px;
+    width: 350px;
+    background: #C4C4C4;
+    border-radius: 35px;
 }
 .btntwoto button{background: none;}
-button{
-    
-    /* left: 50%;
-    right: 50%; */
-    
-    
-    /* top: 40.19%;
-    bottom: 5.61%; */
+.btntwoto h2{  position: absolute;
+    left: 0%;
+    margin-left: 122px;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 19px;
+    height: 19px;
+}
+.btntwoto h1{  position: absolute;
+    left: 0%;
+    margin-left: 162px;
+    margin-bottom: 16px;
+    margin-top: 14px;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    width: 59px;
+    height: 28px;
+}
+button{   
     height: 58px;
     min-width: 350px;
     background: #FFFFFF;
     border-radius: 35px;
 }
-/* .btnone{
-    margin-top: 58px;
-}
-.btntwo{
-    margin-top: 116px;
-}
-.btnthree{
-    margin-top: 174px;
-} */
