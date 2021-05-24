@@ -14,7 +14,7 @@
     left: -1px;
     top: 165px;
     bottom: 0px;
-    background: linear-gradient(360deg, rgba(0, 0, 0, 0.2) 12.59%, rgba(0, 0, 0, 0) 101.31%), url(./img/main377.png);
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.2) 12.59%, rgba(0, 0, 0, 0) 101.31%), url(../img/main377.png);
     mix-blend-mode: normal;
 }
 .header-fone{
@@ -173,7 +173,7 @@ border-radius: 10px;
     height: 39px;
     right: 24px;
     top: 188px;
-    background: url(./img/icon39.png);
+    background: url(../img/icon39.png);
 }
 .header-left{    
     position: absolute;
